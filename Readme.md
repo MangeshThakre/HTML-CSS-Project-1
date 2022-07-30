@@ -1,15 +1,15 @@
 
-![](https://img.shields.io/badge/Live%20Project%2011-Hosting%20Landing%20Page-brightgreen)
+![](https://img.shields.io/badge/Live%20Project%201-Hosting%20Landing%20Page-brightgreen)
 
 
 
 # Street Style Landing Page 
 > HTML - CSS Project-1 
 
-🙌 hey There I'm mangesh Thakre Wed Developer 
-##  What I've learnd form theis project 
+🙌 hey There I'm mangesh Thakre Web Developer 
+##  What I've learnd form this project 
  
- - Learned how to position teh element using the css `position : relative`  `position : absolute`
+ - Learned how to position the element using the css `position : relative`  `position : absolute`
  - Learned the hover effect on button 
  - Smooth transition and element alignment
 
