@@ -200,11 +200,74 @@ img[alt="brand-logo"] {
 
 /* @mediaquery  */
 
-@media (max-width: 800px) {
+.button-group > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu::before {
+  position: absolute;
+  content: "";
+  background: black;
+  width: 1.5rem;
+  height: 3px;
+  border-radius: 20px;
+  bottom: 6px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu {
+  display: none;
+  background: black;
+  width: 24px;
+  height: 3px;
+  margin-left: 1rem;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu::after {
+  position: absolute;
+  content: "";
+  background: black;
+  width: 1.5rem;
+  height: 3px;
+  border-radius: 20px;
+  top: 6px;
+  transition: all 0.3s ease;
+}
+
+.cross-menu::before {
+  bottom: 0px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+}
+
+.cross-menu {
+  background: transparent;
+}
+
+.cross-menu::after {
+  transition: all 0.3s ease;
+  top: 0px;
+  transform: rotate(-45deg);
+}
+
+
+
+
+@media (max-width: 500px) {
   .navbar-container {
-    padding: 40px 20px;
     width: 100%;
     margin: 0;
+    padding: 25px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
   .navbar-container img {
@@ -216,12 +279,16 @@ img[alt="brand-logo"] {
     display: none;
   }
 
+  .hamburger-menu {
+    display: block;
+  }
   .list {
     display: none;
   }
   .hero-container {
     flex-direction: column;
-    margin: 50px 1rem 20px 1rem;
+    margin: 155px 1rem 20px 1rem;
+    position: relative;
   }
 
   .hero-container > div:nth-child(4) {
@@ -303,4 +370,41 @@ img[alt="brand-logo"] {
     margin: 0 7px;
     cursor: pointer;
   }
+  .close {
+    display: none;
+    animation: close 0.5s ;
+  }
+  
+  .navbar-container > div:nth-child(2) {
+    background-color: white;
+    position: pos;
+    position: fixed;
+    height: 100%;
+    top: 71px;
+    width: 80%;
+    left: 0;
+  }
+
+  .navbar-container > div:nth-child(2) ul {
+    display: block;
+    line-height: 3;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  .hide-scroll{
+overflow: hidden;
+  }
+
+  /* .shadow::after{
+    content: "";
+    position: absolute;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    background: #0000008c;
+    top: -90px;
+    } */
+
+
 }
