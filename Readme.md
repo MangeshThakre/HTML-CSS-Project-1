@@ -19,7 +19,7 @@
  ##  _[live project link](https://full-stack-js-html-css-project-1.netlify.app "HTML-CSS_Project-1" )_
 
 
-   ![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-1/blob/master/project-1.png?raw=true)
+   ![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-1/blob/master/project%20img/Frame%207.png?raw=true)
 
    
 
